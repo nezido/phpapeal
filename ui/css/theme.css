@@ -1,0 +1,121 @@
+body nav.nav {
+    background-color: #E55142;
+    height: 85px;
+    margin-bottom: 45px;
+}
+
+body .nav h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+body .content {
+    width: 651px;
+    margin: auto;
+}
+
+nav .content {
+    padding: 0;
+}
+
+.apeal-form {
+    margin-bottom: 40px;
+}
+
+.apeal-form .form-group input, select.form-control {
+    height: 47px;
+    border-radius: 0;
+}
+
+.apeal-form .form-group label {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container .row .form-group {
+    margin-bottom: 24px;
+}
+
+.file-block input[type=file] {
+    outline: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none
+}
+
+.file-block .label {
+    transition: border 300ms ease;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.file-block .label i {
+    font-size: 16px;
+    padding-bottom: 16px
+}
+
+.file-block .label i, .file-block .label .title {
+    color: #4FC08C;
+    transition: 200ms color
+}
+
+.file-block .label:hover i, .file-block .label:hover .title {
+    color: #3a7445;
+}
+
+.file-list {
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.file-list li {
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: 6px 0 8px;
+    margin-bottom: 5px;
+}
+
+.file-list li:last-child {
+    margin-bottom: 0;
+}
+
+.file_remove {
+    background: url("../images/close.png") no-repeat center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.progress-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: green;
+    height: 2px;
+    transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+}
+
+.submit-btn {
+    background-color: #4FC08C;
+    width:276px;
+    border: 0;
+    border-radius: 0;
+    height: 51px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #3a7445;
+}
